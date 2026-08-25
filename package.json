@@ -1,0 +1,12 @@
+{
+  "name": "property-documents-embeddings",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-strip-types --test src/property_documents.test.ts",
+    "example": "node --experimental-strip-types src/property_documents.ts"
+  },
+  "dependencies": {
+    "openai": "^4.0.0"
+  }
+}
